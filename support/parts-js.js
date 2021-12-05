@@ -1,10 +1,23 @@
 const fs = require("fs");
 
 const array = fs
-    .readFileSync(".txt", {
-        encoding: "utf-8"
+    .readFileSync('testInput.txt', {
+        encoding: 'utf-8'
     })
     .replace(/\r/g, "")
-    .split("\n\n")
-    .filter((x) => Boolean(x))
-    .map((x) => x);
+    .split("\n")
+    .filter(Boolean)
+    .map(X);
+
+
+function part1() {
+
+}
+
+part1();
+
+function part2() {
+
+}
+
+part2();
