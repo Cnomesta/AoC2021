@@ -8,16 +8,3 @@ const array = fs
     .split("\n")
     .filter(Boolean)
     .map(X);
-
-
-function part1() {
-
-}
-
-part1();
-
-function part2() {
-
-}
-
-part2();
