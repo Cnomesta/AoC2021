@@ -71,14 +71,9 @@ function part1() {
 }
 
 (() => {
-    const begin = new Date(); // starts timer
-    const output = part1(); // "partX" part that is currently being timed
-    console.log("PART-1:", "Added version number of all packets:", output); //"output" === partX function return data (Befor c.log was used)
-    const end = new Date() - begin; // ends timer
-    console.info('Execution time: %dms', end); // time to finishing task
+    const begin = new Date();
+    const output = part1();
+    console.log("PART-1:", "Added version number of all packets:", output);
+    const end = new Date() - begin;
+    console.info('Execution time: %dms', end);
 })();
-
-//console.log(part1());
-// let res = parsePacket(bin);
-// console.log(verSum);
-//return res[1];
